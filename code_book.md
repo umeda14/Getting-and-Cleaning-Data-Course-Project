@@ -9,7 +9,7 @@
 ### Measurments
 "TimeDomainBodyAccelerometer_Mean_X"                                  
 "TimeDomainBodyAccelerometer_Mean_Y"                                  
-TimeDomainBodyAccelerometer_Mean_Z"                                  
+"TimeDomainBodyAccelerometer_Mean_Z"                                  
 "TimeDomainGravityAccelerometer_Mean_X"                               
 "TimeDomainGravityAccelerometer_Mean_Y"                                
 "TimeDomainGravityAccelerometer_Mean_Z"                               
