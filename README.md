@@ -10,4 +10,4 @@ The data collected from the accelerometers from the Samsung Galaxy S smartphone 
 The code was written in [run_analysis.R](./run_analysis.R).
 
 ### 4. The result of the analysis
-The file, [tidy_data.txt](./tidy.txt) is the summerized result of this analysis
+The file, [tidy_data.txt](./tidy.txt) is the summerized result of this analysis.
