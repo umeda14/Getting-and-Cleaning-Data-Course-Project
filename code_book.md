@@ -7,8 +7,8 @@
   **y_train.txt / y_test.txt** is activity data.
   **subject_train.txt / subject_test.txt** is subject ID data.
 
-- Fetures data gathered from **features.txt** and **features_info.txt** and the mearsument variables were elaborated below. 
-- After the preparatory process, 5 steps constituetes the analysis.
+- Fetures data gathered from **features.txt** and **features_info.txt**, and the mearsument variables were elaborated below. 
+- After the preparatory process, the analysis proceeded with 5 steps.
 
 ### Subject and Activity
 - 30 subjects participated in the research.
