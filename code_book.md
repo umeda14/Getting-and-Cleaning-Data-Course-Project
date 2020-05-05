@@ -6,6 +6,10 @@
 - Fetures data included the measuruments and was elaborated below.
 - After the preparatory process, 5 steps constituetes the analysis.
 
+### Subject and Activity
+- 30 subjects participated in the research.
+- Acitivities were 1 Walking 2 Waking Upstairs 3 Waking Downstairs 4 Sitting 5 Standing 6 Laying.
+
 ### Measurments
 "TimeDomainBodyAccelerometer_Mean_X"                                  
 "TimeDomainBodyAccelerometer_Mean_Y"                                  
