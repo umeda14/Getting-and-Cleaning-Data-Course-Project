@@ -11,87 +11,89 @@
 - Acitivities were 1 Walking 2 Waking Upstairs 3 Waking Downstairs 4 Sitting 5 Standing 6 Laying.
 
 ### Measurments
-"TimeDomainBodyAccelerometer_Mean_X"                                  
-"TimeDomainBodyAccelerometer_Mean_Y"                                  
-"TimeDomainBodyAccelerometer_Mean_Z"                                  
-"TimeDomainGravityAccelerometer_Mean_X"                               
-"TimeDomainGravityAccelerometer_Mean_Y"                                
-"TimeDomainGravityAccelerometer_Mean_Z"                               
-"TimeDomainBodyAccelerometerJerk_Mean_X"                               
-"TimeDomainBodyAccelerometerJerk_Mean_Y"                              
-"TimeDomainBodyAccelerometerJerk_Mean_Z"                               
-"TimeDomainBodyGyroscope_Mean_X"                                      
-"TimeDomainBodyGyroscope_Mean_Y"                                       
-"TimeDomainBodyGyroscope_Mean_Z"                                      
-"TimeDomainBodyGyroscopeJerk_Mean_X"                                   
-"TimeDomainBodyGyroscopeJerk_Mean_Y"                                  
-"TimeDomainBodyGyroscopeJerk_Mean_Z"                                   
-"TimeDomainBodyAccelerometerMagnitude_Mean_"                          
-"TimeDomainGravityAccelerometerMagnitude_Mean_"                        
-"TimeDomainBodyAccelerometerJerkMagnitude_Mean_"                      
-"TimeDomainBodyGyroscopeMagnitude_Mean_"                               
-"TimeDomainBodyGyroscopeJerkMagnitude_Mean_"                          
-"FrequencyDomainBodyAccelerometer_Mean_X"                             
-"FrequencyDomainBodyAccelerometer_Mean_Y"                             
-"FrequencyDomainBodyAccelerometer_Mean_Z"                              
-"FrequencyDomainBodyAccelerometer_MeanFrequecy_X"                     
-"FrequencyDomainBodyAccelerometer_MeanFrequecy_Y"                      
-"FrequencyDomainBodyAccelerometer_MeanFrequecy_Z"                     
-"FrequencyDomainBodyAccelerometerJerk_Mean_X"                          
-"FrequencyDomainBodyAccelerometerJerk_Mean_Y"                         
-"FrequencyDomainBodyAccelerometerJerk_Mean_Z"                          
-"FrequencyDomainBodyAccelerometerJerk_MeanFrequecy_X"                 
-"FrequencyDomainBodyAccelerometerJerk_MeanFrequecy_Y"                  
-"FrequencyDomainBodyAccelerometerJerk_MeanFrequecy_Z"                 
-"FrequencyDomainBodyGyroscope_Mean_X"                                  
-"FrequencyDomainBodyGyroscope_Mean_Y"                                 
-"FrequencyDomainBodyGyroscope_Mean_Z"                                  
-"FrequencyDomainBodyGyroscope_MeanFrequecy_X"                         
-"FrequencyDomainBodyGyroscope_MeanFrequecy_Y"                         
-"FrequencyDomainBodyGyroscope_MeanFrequecy_Z"                         
-"FrequencyDomainBodyAccelerometerMagnitude_Mean_"                      
-"FrequencyDomainBodyAccelerometerMagnitude_MeanFrequecy_"             
-"FrequencyDomainBodyBodyAccelerometerJerkMagnitude_Mean_"              
-"FrequencyDomainBodyBodyAccelerometerJerkMagnitude_MeanFrequecy_"     
-"FrequencyDomainBodyBodyGyroscopeMagnitude_Mean_"                      
-"FrequencyDomainBodyBodyGyroscopeMagnitude_MeanFrequecy_"             
-"FrequencyDomainBodyBodyGyroscopeJerkMagnitude_Mean_"                  
-"FrequencyDomainBodyBodyGyroscopeJerkMagnitude_MeanFrequecy_"         
-"AngleTimeDomainBodyAccelerometerMean_Gravity_"                        
-"AngleTimeDomainBodyAccelerometerJerkMean_GravityMean_"               
-"AngleTimeDomainBodyGyroscopeMean_GravityMean_"                        
-"AngleTimeDomainBodyGyroscopeJerkMean_GravityMean_"                   
-"Angle_X_GravityMean_"                                                 
-"Angle_Y_GravityMean_"                                                
-"Angle_Z_GravityMean_"                                                 
-"TimeDomainBodyAccelerometer_StandardDeviation_X"                     
-"TimeDomainBodyAccelerometer_StandardDeviation_Y"                      
-"TimeDomainBodyAccelerometer_StandardDeviation_Z"                     
-"TimeDomainGravityAccelerometer_StandardDeviation_X"                   
-"TimeDomainGravityAccelerometer_StandardDeviation_Y"                  
-"TimeDomainGravityAccelerometer_StandardDeviation_Z"                   
-"TimeDomainBodyAccelerometerJerk_StandardDeviation_X"                 
-"TimeDomainBodyAccelerometerJerk_StandardDeviation_Y"                  
-"TimeDomainBodyAccelerometerJerk_StandardDeviation_Z"                 
-"TimeDomainBodyGyroscope_StandardDeviation_X"                          
-"TimeDomainBodyGyroscope_StandardDeviation_Y"                         
-"TimeDomainBodyGyroscope_StandardDeviation_Z"                          
-"TimeDomainBodyGyroscopeJerk_StandardDeviation_X"                     
-"TimeDomainBodyGyroscopeJerk_StandardDeviation_Y"                      
-"TimeDomainBodyGyroscopeJerk_StandardDeviation_Z"                     
-"TimeDomainBodyAccelerometerMagnitude_StandardDeviation_"              
-"TimeDomainGravityAccelerometerMagnitude_StandardDeviation_"          
-"TimeDomainBodyAccelerometerJerkMagnitude_StandardDeviation_"          
-"TimeDomainBodyGyroscopeMagnitude_StandardDeviation_"                 
-"TimeDomainBodyGyroscopeJerkMagnitude_StandardDeviation_"              
-"FrequencyDomainBodyAccelerometer_StandardDeviation_X"                
-"FrequencyDomainBodyAccelerometer_StandardDeviation_Y"                 
-"FrequencyDomainBodyAccelerometer_StandardDeviation_Z"                
-"FrequencyDomainBodyAccelerometerJerk_StandardDeviation_X"             
-"FrequencyDomainBodyAccelerometerJerk_StandardDeviation_Y"            
-"FrequencyDomainBodyAccelerometerJerk_StandardDeviation_Z"             
-"FrequencyDomainBodyGyroscope_StandardDeviation_X"                    
-"FrequencyDomainBodyGyroscope_StandardDeviation_Y"                     
-"FrequencyDomainBodyGyroscope_StandardDeviation_Z"                    
-"FrequencyDomainBodyAccelerometerMagnitude_StandardDeviation_"         "FrequencyDomainBodyBodyAccelerometerJerkMagnitude_StandardDeviation_"
-"FrequencyDomainBodyBodyGyroscopeMagnitude_StandardDeviation_"         "FrequencyDomainBodyBodyGyroscopeJerkMagnitude_StandardDeviation_"   
+3	TimeDomainBodyAccelerometer_Mean_X
+4	TimeDomainBodyAccelerometer_Mean_Y
+5	TimeDomainBodyAccelerometer_Mean_Z
+6	TimeDomainGravityAccelerometer_Mean_X
+7	TimeDomainGravityAccelerometer_Mean_Y
+8	TimeDomainGravityAccelerometer_Mean_Z
+9	TimeDomainBodyAccelerometerJerk_Mean_X
+10	TimeDomainBodyAccelerometerJerk_Mean_Y
+11	TimeDomainBodyAccelerometerJerk_Mean_Z
+12	TimeDomainBodyGyroscope_Mean_X
+13	TimeDomainBodyGyroscope_Mean_Y
+14	TimeDomainBodyGyroscope_Mean_Z
+15	TimeDomainBodyGyroscopeJerk_Mean_X
+16	TimeDomainBodyGyroscopeJerk_Mean_Y
+17	TimeDomainBodyGyroscopeJerk_Mean_Z
+18	TimeDomainBodyAccelerometerMagnitude_Mean_
+19	TimeDomainGravityAccelerometerMagnitude_Mean_
+20	TimeDomainBodyAccelerometerJerkMagnitude_Mean_
+21	TimeDomainBodyGyroscopeMagnitude_Mean_
+22	TimeDomainBodyGyroscopeJerkMagnitude_Mean_
+23	FrequencyDomainBodyAccelerometer_Mean_X
+24	FrequencyDomainBodyAccelerometer_Mean_Y
+25	FrequencyDomainBodyAccelerometer_Mean_Z
+26	FrequencyDomainBodyAccelerometer_MeanFrequency_X
+27	FrequencyDomainBodyAccelerometer_MeanFrequency_Y
+28	FrequencyDomainBodyAccelerometer_MeanFrequency_Z
+29	FrequencyDomainBodyAccelerometerJerk_Mean_X
+30	FrequencyDomainBodyAccelerometerJerk_Mean_Y
+31	FrequencyDomainBodyAccelerometerJerk_Mean_Z
+32	FrequencyDomainBodyAccelerometerJerk_MeanFrequency_X
+33	FrequencyDomainBodyAccelerometerJerk_MeanFrequency_Y
+34	FrequencyDomainBodyAccelerometerJerk_MeanFrequency_Z
+35	FrequencyDomainBodyGyroscope_Mean_X
+36	FrequencyDomainBodyGyroscope_Mean_Y
+37	FrequencyDomainBodyGyroscope_Mean_Z
+38	FrequencyDomainBodyGyroscope_MeanFrequency_X
+39	FrequencyDomainBodyGyroscope_MeanFrequency_Y
+40	FrequencyDomainBodyGyroscope_MeanFrequency_Z
+41	FrequencyDomainBodyAccelerometerMagnitude_Mean_
+42	FrequencyDomainBodyAccelerometerMagnitude_MeanFrequency_
+43	FrequencyDomainBodyBodyAccelerometerJerkMagnitude_Mean_
+44	FrequencyDomainBodyBodyAccelerometerJerkMagnitude_MeanFrequency_
+45	FrequencyDomainBodyBodyGyroscopeMagnitude_Mean_
+46	FrequencyDomainBodyBodyGyroscopeMagnitude_MeanFrequency_
+47	FrequencyDomainBodyBodyGyroscopeJerkMagnitude_Mean_
+48	FrequencyDomainBodyBodyGyroscopeJerkMagnitude_MeanFrequency_
+49	AngleTimeDomainBodyAccelerometerMean_Gravity_
+50	AngleTimeDomainBodyAccelerometerJerkMean_GravityMean_
+51	AngleTimeDomainBodyGyroscopeMean_GravityMean_
+52	AngleTimeDomainBodyGyroscopeJerkMean_GravityMean_
+53	Angle_X_GravityMean_
+54	Angle_Y_GravityMean_
+55	Angle_Z_GravityMean_
+56	TimeDomainBodyAccelerometer_StandardDeviation_X
+57	TimeDomainBodyAccelerometer_StandardDeviation_Y
+58	TimeDomainBodyAccelerometer_StandardDeviation_Z
+59	TimeDomainGravityAccelerometer_StandardDeviation_X
+60	TimeDomainGravityAccelerometer_StandardDeviation_Y
+61	TimeDomainGravityAccelerometer_StandardDeviation_Z
+62	TimeDomainBodyAccelerometerJerk_StandardDeviation_X
+63	TimeDomainBodyAccelerometerJerk_StandardDeviation_Y
+64	TimeDomainBodyAccelerometerJerk_StandardDeviation_Z
+65	TimeDomainBodyGyroscope_StandardDeviation_X
+66	TimeDomainBodyGyroscope_StandardDeviation_Y
+67	TimeDomainBodyGyroscope_StandardDeviation_Z
+68	TimeDomainBodyGyroscopeJerk_StandardDeviation_X
+69	TimeDomainBodyGyroscopeJerk_StandardDeviation_Y
+70	TimeDomainBodyGyroscopeJerk_StandardDeviation_Z
+71	TimeDomainBodyAccelerometerMagnitude_StandardDeviation_
+72	TimeDomainGravityAccelerometerMagnitude_StandardDeviation_
+73	TimeDomainBodyAccelerometerJerkMagnitude_StandardDeviation_
+74	TimeDomainBodyGyroscopeMagnitude_StandardDeviation_
+75	TimeDomainBodyGyroscopeJerkMagnitude_StandardDeviation_
+76	FrequencyDomainBodyAccelerometer_StandardDeviation_X
+77	FrequencyDomainBodyAccelerometer_StandardDeviation_Y
+78	FrequencyDomainBodyAccelerometer_StandardDeviation_Z
+79	FrequencyDomainBodyAccelerometerJerk_StandardDeviation_X
+80	FrequencyDomainBodyAccelerometerJerk_StandardDeviation_Y
+81	FrequencyDomainBodyAccelerometerJerk_StandardDeviation_Z
+82	FrequencyDomainBodyGyroscope_StandardDeviation_X
+83	FrequencyDomainBodyGyroscope_StandardDeviation_Y
+84	FrequencyDomainBodyGyroscope_StandardDeviation_Z
+85	FrequencyDomainBodyAccelerometerMagnitude_StandardDeviation_
+86	FrequencyDomainBodyBodyAccelerometerJerkMagnitude_StandardDeviation_
+87	FrequencyDomainBodyBodyGyroscopeMagnitude_StandardDeviation_
+88	FrequencyDomainBodyBodyGyroscopeJerkMagnitude_Stand
