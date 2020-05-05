@@ -4,7 +4,7 @@
 - The data set was downloaded from [the link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  
 - Training data set and test data set were prepared separately. 
   **X_train.txt / X_test.txt** is measurments data. 
-  **Y_train.txt / Y_test.txt** is activity data.
+  **y_train.txt / y_test.txt** is activity data.
   **subject_train.txt / subject_test.txt** is subject ID data.
 
 - Fetures data gathered from **features.txt** and **features_info.txt** and the mearsument variables were elaborated below. 
