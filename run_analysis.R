@@ -60,3 +60,4 @@ tidy_data <- extracted_data %>%
   summarise_all(list(mean))
 write.table(tidy_data, "tidy_data.txt", row.name=FALSE, quote = FALSE)
 
+
