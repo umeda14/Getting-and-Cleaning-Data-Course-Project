@@ -40,20 +40,23 @@ extracted_data$activity <- activity_labels[extracted_data$activity, 2]
 
 #Step4: Appropriately labels the data set with descriptive variable names.
 appropriate_names <- names(extracted_data)
-appropriate_names <- gsub("[(][)]", "", appropriate_names)
-appropriate_names <- gsub("^t", "TimeDomain_", appropriate_names)
-appropriate_names <- gsub("^f", "FrequencyDomain_", appropriate_names)
+appropriate_names <- gsub("^t", "TimeDomain", appropriate_names)
+appropriate_names <- gsub("^f", "FrequencyDomain", appropriate_names)
 appropriate_names <- gsub("Acc", "Accelerometer", appropriate_names)
+appropriate_names <- gsub("angle.t", "AngleTimeDomain", appropriate_names)
+appropriate_names <- gsub("angle", "Angle", appropriate_names)
+appropriate_names <- gsub("gravity", "Gravity", appropriate_names)
 appropriate_names <- gsub("Gyro", "Gyroscope", appropriate_names)
 appropriate_names <- gsub("Mag", "Magnitude", appropriate_names)
-appropriate_names <- gsub("-mean-", "_Mean_", appropriate_names)
-appropriate_names <- gsub("-std-", "_StandardDeviation_", appropriate_names)
-appropriate_names <- gsub("-", "_", appropriate_names)
+appropriate_names <- gsub("meanFreq", "MeanFrequecy", appropriate_names)
+appropriate_names <- gsub("mean", "Mean", appropriate_names)
+appropriate_names <- gsub("std", "StandardDeviation", appropriate_names)
+appropriate_names <- gsub("\\.+", "_", appropriate_names)
 names(extracted_data) <- appropriate_names
 
 #Step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 tidy_data <- extracted_data %>%
   group_by(subject, activity) %>%
-  summarise_all(funs(mean))
+  summarise_all(list(mean))
 write.table(tidy_data, "tidy_data.txt", row.name=FALSE, quote = FALSE)
 
